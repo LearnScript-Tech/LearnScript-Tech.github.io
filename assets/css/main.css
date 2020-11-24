@@ -27,6 +27,8 @@ padding: 0 25px;
 }
 }
 
+
+
 /* Play Button */
 
 #intro .play-btn {
@@ -254,9 +256,19 @@ color: #fff;
   padding: 7px 22px;
   transition: 0.2s;
 }
-.header-btn:hover {
+.dropdown-menu {
+  border: 0px;
+  outline:  0px;
+}
+.dropdown-item:hover{
+  color:#fafafa;
+  border-radius: 5px;
   background-color: #6651c4;
-  cursor: pointer;
+  border:none;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 20px 10px;
+  transition: 0.3s;
 }
 .navbar-scroll {
   background-color: #6651c4;
