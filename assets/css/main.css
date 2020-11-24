@@ -1,3 +1,8 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+</style>
+
+
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -245,6 +250,9 @@ color: #fff;
   transition: 0.5s;
   font-size: 1.5rem;
   padding: 7px 22px;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+ 
 }
 .nav-item .nav-link:hover {
   color: #fafafa;
@@ -256,12 +264,13 @@ color: #fff;
   padding: 7px 22px;
   transition: 0.2s;
 }
+
 .dropdown-menu {
   border: 0px;
   outline:  0px;
 }
 .dropdown-item:hover{
-  color:#fafafa;
+  color:#fafafa;.
   border-radius: 5px;
   background-color: #6651c4;
   border:none;
@@ -309,6 +318,9 @@ color: #fff;
   min-height: 500px;
   font-size: 1.4rem;
   padding: 0 40px;
+  font-family: 'Barlow Condensed', sans-serif;
+
+  
 }
 
 @media only screen and (min-width: 1200px) {
