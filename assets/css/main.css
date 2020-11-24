@@ -121,4 +121,8 @@ body {
   .content-banner .first-title {
     font-size: 30px !important;
   }
+  .banner-btn {
+    padding: 0px 8px 0 8px;
+    width: 195px;
+  }
 }
