@@ -1,9 +1,9 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: azure;
 }
 
 .content-banner {
+  margin-top: 151px;
   color: #ffffff;
   background-image: url("../images/banner.svg");
   min-height: 580px;
@@ -70,7 +70,6 @@ body {
   border-radius: 30px;
   background-color: #6651c4;
   border: none;
-  /* font-weight: 5px; */
   outline: none;
   font-size: 1.5rem;
   padding: 7px 22px;
@@ -101,29 +100,24 @@ body {
 
 /* Vision Section */
 .vision {
-  /* margin: 2px; */
+  margin-top: 100px;
+  margin-bottom: 100px;
   min-height: 580px;
   height: 100%;
   width: 100%;
-  /* border: 1px solid black; */
 }
 .vision-img {
-  margin-top: 100px;
-  /* border: 1px solid black; */
-}
-.vision-img img {
-  /* border: 1px solid black; */
-  width: 100%;
-  height: 100%;
+  background-image: url("../images/banner1.svg");
+  background-position: center center;
+  background-size: cover;
 }
 .vision-text {
-  margin-top: 100px;
-  font-size: 1.2rem;
+  position: relative;
+  left: 54%;
+  width: 40%;
+  min-height: 500px;
+  font-size: 1.4rem;
   padding: 0 40px;
-  /* border: 1px solid black; */
-}
-.vision-text h1 {
-  text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {
