@@ -38,6 +38,8 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
   </head>
   <body>
 
@@ -52,8 +54,6 @@
         <a class="navbar-brand" href="#"><span class="logo">
           <img src="assets/images/logo.svg" class="img-fluid"></span>
         </a>
-
-       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
@@ -94,11 +94,11 @@
 
     <!-- Main Section -->
     <section id= "intro" class="content-banner">
-      <div class= "intro-container" data-aos="zoom-in" data-aos-delay="100">
+      <div class= "intro-container">
           <div class="row d-flex">
               <div class="col-md-12">
                   <div class="banner-con text-center">
-                    <div class="intro-container" data-aos="zoom-in" data-aos-delay="100"></div>
+                    <div class="intro-container" data-aos="fade-left"></div>
                       <a href="#join" class="join-btn scrollto" target="_blank" class="banner-btn">Join Our Community</a>
                   </div>
               </div>
@@ -108,13 +108,14 @@
   </section>
 
     <!-- Vision Section -->
-    
+    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
     <section class="vision vision-img">
       <div class="container-fluid">
         <div class="row">
           <div class="vision-text">
             <h1 class="text-center">Our Vision</h1>
-            <p><li>We focus on learning and thus our team works 
+            <div data-aos="fade-top" data-aos-anchor-placement="bottom-bottom">
+     <p><li>We focus on learning and thus our team works 
             closely without any spaces and develop the skills 
             you want to learn.</li></p>
             
@@ -126,8 +127,10 @@
             to know more about the skills you need hence we 
             always welcome to join the community.</li></p>
           </div>
+          </div>
       </div>
     </div>
+  </div>
     </section>
 
     <!--Main Content-->
@@ -145,5 +148,10 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
+
 </html>

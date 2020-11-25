@@ -319,8 +319,7 @@ color: #fff;
   font-size: 1.4rem;
   padding: 0 40px;
   font-family: 'Barlow Condensed', sans-serif;
-
-  
+  box-sizing: border-box;
 }
 
 @media only screen and (min-width: 1200px) {
