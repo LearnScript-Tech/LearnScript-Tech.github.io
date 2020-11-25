@@ -1,6 +1,6 @@
-<style>
+/* <style> */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
-</style>
+/* </style> */
 
 
 body {
@@ -192,7 +192,7 @@ color: #fff;
   margin-top: 151px;
   color: #ffffff;
   background-image: url("../images/banner.svg");
-  min-height: 580px;
+  min-height: 815px;
   height: 100%;
   width: 100%;
   position: relative;
@@ -300,7 +300,7 @@ color: #fff;
 
 /* Vision Section */
 .vision {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   min-height: 580px;
   height: 100%;
