@@ -43,7 +43,7 @@ display: block;
 position: relative;
 overflow:hidden;
 z-index: 1;
-margin-left: -278px;
+margin-left: -256px;
 margin-top: 75px;
 }
 
@@ -153,7 +153,7 @@ animation-delay: 0.8s;
 border: 2px solid #fe4066;
 position: absolute;
 top: 200px;
-right: 120px;
+right: 100px;
 }
 
 
@@ -357,7 +357,7 @@ Back to Top Button*/
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #7707e0;
   color: #fff;
   width: 40px;
   height: 40px;
