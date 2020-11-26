@@ -192,14 +192,16 @@ color: #fff;
   margin-top: 151px;
   color: #ffffff;
   background-image: url("../images/banner.svg");
-  min-height: 580px;
+  min-height: 590px;
   height: 100%;
   width: 100%;
   position: relative;
   background-position: center center;
   background-size: cover;
   padding: 125px;
+  overflow: hidden;
 }
+
 .content-banner:before {
   position: absolute;
   content: "";
@@ -298,11 +300,12 @@ color: #fff;
   background-color: #6651c4;
 }
 
+
 /* Vision Section */
 .vision {
   margin-top: 100px;
   margin-bottom: 100px;
-  min-height: 580px;
+  min-height: 470px;
   height: 100%;
   width: 100%;
 }
@@ -315,7 +318,7 @@ color: #fff;
   position: relative;
   left: 54%;
   width: 40%;
-  min-height: 500px;
+  min-height:450px;
   font-size: 1.4rem;
   padding: 0 40px;
   font-family: 'Barlow Condensed', sans-serif;
@@ -349,3 +352,8 @@ color: #fff;
     width: 195px;
   }
 }
+
+/*
+Preloader */
+
+
