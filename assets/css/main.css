@@ -248,7 +248,7 @@ color: #fff;
   /* font-weight: 50px; */
   color: #000;
   transition: 0.5s;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   padding: 7px 22px;
   text-transform: uppercase;
   text-decoration-style: solid;
@@ -260,7 +260,7 @@ color: #fff;
   background-color: #6651c4;
   border: none;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   padding: 7px 22px;
   transition: 0.2s;
 }
@@ -301,7 +301,7 @@ color: #fff;
 
 /* Vision Section */
 .vision {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   min-height: 470px;
   height: 100%;
