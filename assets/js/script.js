@@ -25,39 +25,6 @@ $(window).on('load', function() {
   });
 });
 
-//Initialize SuperFish
-
-$('.navbar-nav').superfish({
-  animation: {
-    opacity: 'show'
-  },
-  speed: 400
-});
-
-
-//Navigation active state on Scroll
-
-var nav_sections = $('section');
-  var main_nav = $('.navbar-nav, #mobile-nav');
-
-  $(window).on('scroll', function() {
-    var cur_pos = $(this).scrollTop() + 200;
-
-    nav_sections.each(function() {
-      var top = $(this).offset().top,
-        bottom = top + $(this).outerHeight();
-
-      if (cur_pos >= top && cur_pos <= bottom) {
-        if (cur_pos <= bottom) {
-          main_nav.find('li').removeClass('nav-item');
-        }
-        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('nav-item');
-      }
-      if (cur_pos < 300) {
-        $(".navbar-nav li:first").addClass('nav-item');
-      }
-    });
-  });
 //Init AOS
 
 function aos_init() {
@@ -85,5 +52,20 @@ $('.back-to-top').click(function() {
     scrollTop: 0
   }, 1500, 'easeInOutExpo');
   return false;
+});
+
+
+//Activate smooth scroll on page load with hash links in the URl
+
+$(document).ready(function() {
+  if (window.location.hash) {
+    var initial_nav = window.location.hash;
+    if ($(initial_nav).length) {
+      var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 1500, 'easeInOutExpo');
+    }
+  }
 });
 
