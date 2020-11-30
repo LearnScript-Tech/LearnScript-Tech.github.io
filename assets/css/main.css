@@ -317,11 +317,11 @@ header{
   background-size: cover;
 }
 .vision-text {
-  position: relative;
+  position: absolute;
   left: 54%;
   width: 40%;
   min-height:450px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding: 0 40px;
   font-family: 'Barlow Condensed', sans-serif;
   box-sizing: border-box;
@@ -354,6 +354,11 @@ header{
     width: 195px;
   }
 }
+
+
+/*Event Section*/
+
+
 
 /*
 Back to Top Button*/
@@ -393,5 +398,7 @@ Back to Top Button*/
   background: #e0072f;
   color: #fff;
 }
+
+
 
 
