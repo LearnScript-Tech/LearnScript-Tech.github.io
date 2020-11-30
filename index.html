@@ -15,6 +15,8 @@
      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
      <link rel="stylesheet" href="assets/css/main.css" />
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
     <!--Site Main CSS-->
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -28,6 +30,25 @@
   
   
     <body>
+
+      <!--=======Preloader Part=========-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
       <!-- <header> -->
       
@@ -53,13 +74,16 @@
               <a class="nav-link" href="#aboutus">About Us</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="#events">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -104,7 +128,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="vision-text" data-aos="zoom-in" data-aos-delay="150">
-            <h1 class="text-center"><strong>Our Vision</h1></strong>
+            <h1 class="text-center"><strong>Our Vision</strong></h1>
             <div data-aos="fade-top" data-aos-anchor-placement="bottom-bottom">
      <p><li>We focus on learning and thus our team works 
             closely without any spaces and help you to develop the skills 
@@ -128,14 +152,16 @@
     </section>
 
 
-    <!--Event Section-->
-
-    <section id="events">
-    <div class="container" data-aos="fade-up">
-      <div class="event-header">
-        <h1>Explore Our Event</h1>
-      </div>
+    <!--Event Section
+<section id= "events">
+  <div class="event-text">
+    <div class="e-container">
+      <h1>Explore<br>
+      <p>Our Events</p></h1>
     </div>
+  </div>
+  </section>
+-->
 
 
     <a href="#" class="back-to-top" style="display: inline;"><i class="fa fa-angle-up"></i></a>
@@ -169,7 +195,12 @@
     <script>
       AOS.init();
     </script>
+<script>
+  setTimeout(function(){
+      $('.preloader').fadeToggle();
+  }, 1500);
 
+</script>
 
   </body>
 </html>
