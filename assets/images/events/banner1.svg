@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.226" y2="1.117" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fffefe"/>
+      <stop offset="0.127" stop-color="#fff"/>
+      <stop offset="0.566" stop-color="#b03dd3"/>
+      <stop offset="0.776" stop-color="#c23e7b"/>
+      <stop offset="1" stop-color="#2d143e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.486" y2="1.017" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececec"/>
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.161" stop-color="#ecdaf6"/>
+      <stop offset="0.295" stop-color="#b672dc"/>
+      <stop offset="0.67" stop-color="#a93e97"/>
+      <stop offset="0.961" stop-color="#422496"/>
+      <stop offset="0.976" stop-color="#411b8f"/>
+      <stop offset="1" stop-color="#2d143e"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_5">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_5" data-name="Web 1920 – 5" clip-path="url(#clip-Web_1920_5)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="Path_165" data-name="Path 165" d="M278,12037.534" transform="translate(-278 -11021)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_184" data-name="Path 184" d="M6544.86-441s8.047,262.946,158.638,418.994S7085.15,178.062,7200.106,306.31s140.245,487.344,140.245,487.344H6355V-441Z" transform="translate(-6330 357.975)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Path_185" data-name="Path 185" d="M6540.708-441s7.871,256.945,155.168,409.432,373.305,195.5,485.747,320.823S7318.8,765.477,7318.8,765.477H6355V-441Z" transform="translate(-6407 441)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

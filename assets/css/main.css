@@ -414,7 +414,6 @@ animation: none;
 border-radius: 0;
 }
 
-
 /*
 Join Button
 */
@@ -460,13 +459,10 @@ right: 100px;
   opacity: 0;
 }
 }
-
 #intro .join-btn:hover {
 background: #f82249;
 color: #fff;
 }
-
-
 
 .content-banner {
   margin-top: 151px;
@@ -586,6 +582,9 @@ header{
 }
 
 /* Vision Section */
+#aboutus{
+  box-sizing: border-box;
+}
 .vision {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -606,7 +605,6 @@ header{
   font-size: 1.3rem;
   padding: 0 40px;
   font-family: 'Barlow Condensed', sans-serif;
-  box-sizing: border-box;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -638,104 +636,57 @@ header{
 }
 
 
-/*Event Section*/
+/*=======================Event Section======================*/
 
-.e-container h1{
-  display: flex;
-  flex-direction: column;
-  padding: 100px 0 0 35px;
-  position: relative;
-  margin:0;
-  font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-  line-height: 0.94;
+
+#events{
+  box-sizing: border-box;
 }
-.event-text{
-  max-width: 100%;
+.eventimage{
+  background: url('../images/events/banner1.svg');
+  background-position: left center;
+  background-size: cover;
 }
-
-
-slider {
-  background: #111;
-  width: 950px;
-  height: 350px;
-  padding: 10px;
-  position: relative;
-  top: 10px;
-  box-shadow: 0 30px 50px -20px black;
+.etext{
+  margin: 0 0 0 50px;
+  padding: 200px 0 50px 27px;
+  font-weight: 300;
+  font-family: 'Anton', sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  line-height: 3.1rem;
+  letter-spacing: 0.2px; 
+}
+.col-md-4{
+  margin-top: 20px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
-
-.images {
-  background: #ccc;
-  width: 100%;
-  height: 74%;
-  transition: background .5s linear;
-  /*animation: slideshow 10s steps(1, start);*/
+ .eimage:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
-input[type='radio'] {
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #444;
-  background-size: 225px 70px;
-  width: 225px;
-  height: 70px;
-  margin: 5px;
-  cursor: pointer;
-  position: relative;
-  float: left;
-  top: 270px;
-  -webkit-filter: sepia();
-}
-input[type='radio']:checked {
-  content: '';
-  border: solid 5px #ccc;
-  box-shadow: none;
-  -webkit-filter: none;
+.color img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
 }
 
-input[type='radio']:hover{
-  border: solid 5px #fff;
-  -webkit-filter: none;
-  transform: scale(1.05);
-  z-index: 9999;
-}
-
-.slide1 {
-  background: url('../images/events/8qnwfe8qj9fknav9230934.jpeg'));
-}
-
-.slide2 {
-  background: url('../images/events/bsuf233f982fnwefniwoejf9\ \(1\).jpeg');
-}
-
-.slide3 {
-  background: url('../images/events/knasdf93223nf023323fnv.jpeg');
-}
-
-.slide4 {
-  background: url('../images/events/jksdbda8b9fh23iksvb.jpeg');
-}
-
-h3{
-  color: #000;
-  font-family: 'Courier';
-  margin: 30px -15px 0 0;
-  text-align: right;
-  text-shadow: 2px 2px 2px #fff;
-}
-
-h3 a{
-  color: #000;
-  text-decoration: none;
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
 }
 
 
 
-/*
-Back to Top Button*/
+/*Back to Top Button*/
 /* Back to top button */
+
+
 .back-to-top {
   position: fixed;
   display: none;
