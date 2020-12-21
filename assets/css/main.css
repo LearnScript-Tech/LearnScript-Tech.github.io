@@ -681,8 +681,93 @@ filter: none;
 transition: 1s ease;
 }
 
+/*   Join Our Team Section */
+.sectionimg{
+  background: url('../images/banner2.svg');
+  background-position: left center;
+  background-size: cover;
+}
 
+.sectiontxt{
+  margin: 0 0 0 50px;
+  padding: 200px 0 50px 27px;
+  font-weight: 300;
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 3.1rem;
+  letter-spacing: 0.2px; 
+}
+.containerfx{
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+}
+.containerfx .card{
+  position: relative;
+  width: 520px;
+  padding: 60px;
+  bottom: 20px;
+  left: 220px;
+  left: px; 
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  overflow: hidden;
+  border-radius: 6%;
+}
+.containerfx .card:before{
+  content:'';
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 25px);
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+}
+.containerfx .card:nth-child(1)::before{
+  background: #fe4066;
+}
+.containerfx .card:nth-child(2)::before{
+  background: #6651c4; 
+}
 
+.containerfx .card:hover:before{
+  bottom: 0;
+}
+
+.containerfx .card div{
+  position: relative;
+  z-index:2;
+}
+.containerfx .card div h2{
+  margin-bottom: 10px;
+  font-size: 30px;
+  transition: 0.5s;
+  color: #777;
+}
+.containerfx .card div p{
+  font-size: 18px;
+  transition: 0.5s;
+  color: #777;
+}
+.containerfx .card div a{
+  margin-top:20px;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  transition: :0.5s;
+  background: #fff;
+  color: #777;
+  padding: 6px 10px;
+  font-weight: 600;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+
+.containerfx .card:hover div h2,
+.containerfx .card:hover div p{
+  color: #fff;
+}
 /*Back to Top Button*/
 /* Back to top button */
 
