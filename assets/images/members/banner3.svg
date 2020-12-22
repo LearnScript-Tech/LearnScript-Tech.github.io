@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1f0429"/>
+      <stop offset="1" stop-color="#321b3b"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_4">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_4" data-name="Web 1920 – 4" clip-path="url(#clip-Web_1920_4)">
+    <rect width="1920" height="1080" fill="#200529"/>
+    <path id="Path_165" data-name="Path 165" d="M278,12037.534" transform="translate(-278 -11021)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_3" data-name="Line 3" y1="19" x2="1920" transform="translate(636.5 1053.5)" fill="none"/>
+    <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(0 36)" stroke="#200529" stroke-width="1" fill="url(#linear-gradient)">
+      <ellipse cx="253.5" cy="252" rx="253.5" ry="252" stroke="none"/>
+      <ellipse cx="253.5" cy="252" rx="253" ry="251.5" fill="none"/>
+    </g>
+    <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(960 734)" stroke="#200529" stroke-width="1" fill="url(#linear-gradient)">
+      <ellipse cx="253.5" cy="252" rx="253.5" ry="252" stroke="none"/>
+      <ellipse cx="253.5" cy="252" rx="253" ry="251.5" fill="none"/>
+    </g>
+    <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(1496 -79)" stroke="#200529" stroke-width="1" fill="url(#linear-gradient)">
+      <ellipse cx="253.5" cy="252" rx="253.5" ry="252" stroke="none"/>
+      <ellipse cx="253.5" cy="252" rx="253" ry="251.5" fill="none"/>
+    </g>
+  </g>
+</svg>
